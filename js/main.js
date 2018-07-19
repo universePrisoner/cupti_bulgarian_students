@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".testimonial__slider").slick({dots:!1,arrows:!1,slidesToShow:2,autoplay:!0,autoplaySpeed:3e3,centerPadding:"0"});new SmoothScroll('a[href="#"]')}),$(window).scroll(function(){var o=document.getElementsByClassName("topBtn");$(window).scrollTop()>200?$(o).css("display","block"):$(o).css("display","none")});
